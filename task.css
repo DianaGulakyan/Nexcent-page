@@ -237,7 +237,7 @@ nav a {
 }
 .img{
     width: 300px;
-    height: 300px;
+    height: 230px;
     border-radius: 5px;
 }
 .image{
@@ -249,16 +249,16 @@ nav a {
 .text{
     display: flex;
     justify-content: center;
-    gap: 100px; 
+    gap: 85px; 
 }
 .card{
     background-color: rgb(237, 236, 236);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(95, 81, 81, 0.296);
-    width: 220px;
+    width: 240px;
     height: 130px;
     position: relative;
-    bottom: 80px;
+    bottom: 70px;
     cursor: pointer;
 }
 .card p{
@@ -269,4 +269,79 @@ nav a {
     text-decoration: none;
     margin-left: 60px;
     
+}
+
+.pel{
+    padding: 3%;
+    background: #f9f9f9;
+}
+.pel h1{
+    text-align: center;
+}
+.pel a{
+    margin-left: 500px;
+    
+}
+
+.foter{
+    padding: 3%;
+    background: rgba(38, 50, 56, 1);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.foter p{
+    color: rgba(245, 247, 250, 1);
+    margin-left: 80px;
+
+}
+.foter img{
+    margin-left: 80px;
+}
+.block{
+    margin-right: 120px;
+}
+.bloc1 pr{
+    color: white;
+    margin-top: 24px;
+}
+
+.bloc1{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
+.bloc1 img{
+    width: 30px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    line-height: 20px;
+    font-size: 10px;
+}
+.bloc2 h3{
+    color: white;
+    margin-left: 40px;
+
+}
+.bloc3 h3{
+    color: white;
+    margin-left: 40px;
+}
+.bloc4 h3{
+    color: white;
+}
+.bloc4 input{
+    border: none;
+    border-radius: 4px;
+    background-color: #c4c4c4;
+  
+}
+.bloc4{
+    margin-right: 70px;
 }
